@@ -21,14 +21,18 @@ npm install @clef/jql-query-active-users
 ## Usage
 
 ```javascript
-import jql-query-active-users from '@clef/jql-query-active-users';
+import ActiveUsersQuery from '@clef/jql-query-active-users';
 
-/*
-*
-* Add more usage information here.
-* Good code is bad unless it's documented.
-*
-*/
+MP.api.jql(
+  ActiveUsersQuery,
+  {
+    fromDate: moment().subtract(20, 'days').toDate(),
+    toDate: moment().toDate(),
+    events: []
+  }
+).done((results) => {
+  console.log(results)
+})
 ```
 
 ## Development

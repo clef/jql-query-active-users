@@ -14,7 +14,6 @@
  */
 import { helpers } from 'jql-tools'
 
-
 function main () {
   return Events({
     from_date: helpers.DateHelper.formatDate(params.fromDate),
