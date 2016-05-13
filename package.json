@@ -1,7 +1,7 @@
 {
   "name": "@clef/jql-query-active-users",
   "description": "A Mixpanel JQL query to measure active users",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "author": "jessepollak",
   "repository": "clef/jql-query-active-users",
